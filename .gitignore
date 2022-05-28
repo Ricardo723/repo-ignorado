@@ -1,0 +1,23 @@
+#Ignora el config.php
+**/config.php
+#Ignora las carpetas ConenidoSecreto
+**/ContenidoSecreto
+#Ignora todos los .pdf
+**/*.pdf
+#NO ignora los archivos pdf en docs
+!*/docs
+#Ignora todos loa archivos .txt
+**/.txt
+#Ignoran todas las imagenes
+**/*.jpg
+**/*.jpeg
+**/*.png
+**/*.webp
+#NO ignora las imagenes importantes
+!*-system.*
+#Elimina los archivos que tengan el nombre prueba
+**/*-prueba.*
+#Elimina los archivos que tengan el nombre local
+**/*-local.*
+#NO ignora los archivos que tengan el nombre experimento
+!*-experimento.*
